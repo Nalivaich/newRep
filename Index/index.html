@@ -4,7 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <title>myTestSite</title>
+    <link href="css/source-sans-pro.css" type="text/css" rel="stylesheet" />
     <link href="css/StyleSheet1.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="" />
 </head>
 <body>
     <header>
@@ -12,11 +14,11 @@
             <div class="title">My-test-site</div>
             <ul>
                 <!-- use unordered list as inline el-->
-                <li><a href="http://google.com">Home</a></li>
-                <li><a href="http://google.com">About</a></li>
-                <li><a href="http://google.com">Services</a></li>
-                <li><a href="http://google.com">Work</a></li>
-                <li><a href="http://google.com">Contact</a></li>
+                <li class="header-list"><a href="#">Home</a></li>
+                <li class="header-list"><a href="#">About</a></li>
+                <li class="header-list"><a href="#">Services</a></li>
+                <li class="header-list"><a href="#">Work</a></li>
+                <li class="header-list"><a href="#">Contact</a></li>
             </ul>
         </div>
         <div>
@@ -37,37 +39,27 @@
     <section class="top-section">
         <!-- make float or use column in css-->
         <div class="sc1-border">
-            <div class="ts-div1 ts-div">
+            <div class="ts-text">
                 <div class="heart-image sc1-image"></div>
                 <div>
                     <span class="section-header">Chronicles 16:11 </span>
-                    <p><span><pre>
-Seek the LORD and his strength; seek his 
-presence continually!
-                    </pre></span></p>
+                    <p>Seek the LORD and his strength; seek his presence continually!<p/>
                 </div>
-                <div class ="arrow-image"> <!-- ule a or img-->
-                </div>
+                <div class ="arrow-image"><!-- ule a or img--></div>
             </div>
-            <div class="ts-div2 ts-div">
+            <div class="ts-text">
                 <div class="pencil-image sc1-image"></div>
                 <div>
                     <span class="section-header">Romans 12:12 </span>
-                    <p><span><pre>
-Rejoice in hope, be patient in tribulation,
-be constant in pray
-                    </pre></span></p>
+                    <p>Rejoice in hope, be patient in tribulation, be constant in pray</p>
                 </div>
                 <div class="arrow-image"> </div>
             </div>
-            <div class="ts-div3 ts-div">
+            <div class="ts-text">
                 <div class="flag-image  sc1-image"></div>
                 <div>
                     <span class="section-header">Philippians 4:13 </span>
-                    <p><span><pre>
-I can do all things through him who 
-strengthens me. 
-                    </pre></span></p>
+                    <p>I can do all things through him who strengthens me. </p>
                 </div>
                 <div class="arrow-image"> </div>
             </div>
@@ -76,20 +68,20 @@ strengthens me.
 
     <section class="bottom-section">
         <div class="section2-leftDiv">
-            <div class="sc2-div">
+            <div class="sc2-content">
                 <div class="sc2-textleft">
                     <p><span>Cestib umauct</span></p>
-                    <span>Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, comm lorem ipin <a href="http://google.com" class="section-link">read more ...</a></span>
+                    <span>Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, comm lorem ipin <a href="#" class="section-link">read more ...</a></span>
                 </div>
                 <!--Add Image(float: right), or add 2 'div' & make 'inline'-->
                 <div class="sc2-topleftImg sc2-img">
                     
                 </div>
             </div>
-            <div class="sc2-div">
+            <div class="sc2-content">
                 <div class="sc2-text sc2-textleft">
                     <p><span>Cestib umauct</span></p>
-                    <span>Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, comm lorem ipin <a href ="http://google.com" class="section-link">read more ...</a></span>
+                    <span>Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, comm lorem ipin <a href="#" class="section-link">read more ...</a></span>
                 </div>
                 <!--Add Image(float: right), or add 2 'div' & make 'inline'-->
                 <div class="sc2-botleftImg sc2-img">
@@ -99,20 +91,20 @@ strengthens me.
             </div>
         </div>
         <div class="section2-rightDiv">
-            <div class="sc2-div">
+            <div class="sc2-content">
                 <div class="sc2-textright">
                     <p><span>Nunc dignissim</span></p>
-                    <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.Donec odio. Quisque volutpat matti <a href="http://google.com" class="section-link">read more ...</a></span>
+                    <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.Donec odio. Quisque volutpat matti <a href="#" class="section-link">read more ...</a></span>
                 </div>
                 <!--Add Image(float: left), or add 2 'div' & make 'inline'-->
                 <div class="sc2-toprightImg sc2-img">
 
                 </div>
             </div>
-            <div class="sc2-div">
+            <div class="sc2-content">
                 <div class="sc2-text sc2-textright">
                     <p><span>Nunc dignissim</span></p>
-                    <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.Donec odio. Quisque volutpat matti <a href="http://google.com" class="section-link">read more ...</a></span>
+                    <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.Donec odio. Quisque volutpat matti <a href="#" class="section-link">read more ...</a></span>
                 </div>
                 <!--Add Image(float: left), or add 2 'div' & make 'inline'-->
                 <div class="sc2-botrightImg sc2-img">
@@ -150,12 +142,11 @@ strengthens me.
             </div>
 
         </div>
-        <hr />
         <div class="footer-bottom">
             <p class="bf-header"><span>Vivamus vesinqu</span></p>
-            <p > <input placeholder="    your email id here..." class="bf-input" type="email" name="email" /><input class="bf-button" type="button" name="button1" value="Subscribe" /></p>
-            <p>Copyright(c) website name.</p>
-            <p><a href="http://google.com" class="section-link">Designed by: www.alltemplateneeds.com </a> /  <a class="simple-link" href="http://google.com">Images from: www.wallpaperswide.com</a></p>
+            <div class="ft-inputs"> <input placeholder="your email id here..." class="bf-input" type="email" name="email" /><input class="bf-button" type="button" name="button1" value="Subscribe" /></div>
+            <p class="ft-website-name">Copyright(c) website name.</p>
+            <p><a href="#" class="section-link">Designed by: www.alltemplateneeds.com </a> /  <a class="simple-link" href="#">Images from: www.wallpaperswide.com</a></p>
         </div>
     </footer>
 

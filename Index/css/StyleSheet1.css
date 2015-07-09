@@ -1,20 +1,26 @@
-﻿body
+﻿
+body
 {
     margin:0% 0%;
     padding:0px;
     font: 14px sans-serif;
     color:#969698;
     font-size:16px;
+    max-width:1920px;
+    min-width:1920px;
 }
 header
 {
         color:#FDF4F2;
 }
+a
+{
+    text-decoration:none;
+}
 header a
 {
     color:#FDF4F2;
-    text-decoration:none;
-    font: 14px sans-serif;
+    font: 16px sans-serif;
 }
 section
 {
@@ -24,42 +30,59 @@ footer
 }
 .header-hat
 {
-    height:80px;
+    box-sizing:border-box;
+    /*height:80px;*/
     overflow: hidden;
     background-color:#DB5940;
 }
 .title
 {
     /*text-transform:uppercase;*/
-    margin:30px 0px 20px 20%;
-    font-size:18px;
+
+    margin:25px 0 0 20%;
+    font-size:19px;
     float:left;
 }
 .header-hat ul
 {
-    margin:30px 0px 20px 57%;
+    margin:0 0 0 57%;
 }
 .header-hat ul li
 {
-    padding:0px 18px;
+    /*padding:25px 18px;*/
+    line-height: 5em;
     display:inline-block;
+    padding:0 17px;
 }
 
+.header-list:hover
+{
+    background-color:#F0D0B0;
+}
 .header-citation
 {
     /*outline: 1px solid red;*/
-    height:140px;
+    /*height:140px;*/
     padding:0px;
     overflow: hidden;
-        /*font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
-    /*font-weight:300;*/
-    color:#969698;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#FDF4F2;
     text-align:center;
     background-color:#38373B;
 }
 h1
 {
    text-transform:uppercase; 
+   margin:0px;
+   padding-top:40px;
+   font-weight:lighter;
+}
+h2
+{
+   font-size:18px;
+   margin:0px;
+   padding-bottom:45px;
+   font-weight:lighter;
 }
 .header-image
 {
@@ -67,6 +90,7 @@ h1
     background-color:#969698;
     background-image:url("../images/6_02.gif");
     BACKGROUND-POSITION-X: CENTER;
+    background-repeat:no-repeat;
     
 }
 /*-----------------------------------------------------*/
@@ -75,7 +99,11 @@ h1
 {
     height:420px;
     background-color:#F4F4F4;
-    color:#969698;
+
+}
+.top-section p
+{
+    line-height:25px;
 }
 .sc1-border 
 {
@@ -84,17 +112,16 @@ h1
     width:70%;
    /*outline: 1px solid red;*/
 }
-.ts-div
+.ts-text
 {
 	text-align:center;
 	/*outline: 1px solid red;*/
     height: 70%;
-    width:25%;
+    width:22%;
     float:left;
-    padding:65px 4% 0px 4%;
-    
-    
-   
+    padding:65px 0% 0px 9%;
+
+
 }
 
 .ts-div3
@@ -115,12 +142,11 @@ h1
     width:130px;
 	background-repeat:no-repeat;
 	margin:auto;
-    /*border: 2px solid #B9B8BE;
-	border-radius: 30px;*/
+    padding-bottom:2%;
 }
 .heart-image
 {
-	    background-image:url("../images/6_09 (2).gif");
+	background-image:url("../images/6_09 (2).gif");
 		
 }
 .pencil-image
@@ -131,10 +157,12 @@ h1
 {
 	background-image:url("../images/6_03.gif");
 }
-.section-header,.sc2-div p
+.section-header
 {
     font: 23px sans-serif;
     color:#605F64;
+    width:auto;
+    padding:6% 0%;
 }
 .arrow-image
 {
@@ -172,11 +200,23 @@ h1
     color:#DB5940;
 }
 
-.sc2-div
+.sc2-content
 {
     height:230px;
     float:right;
 }
+.sc2-content p
+{
+    font: 23px sans-serif;
+    color:#605F64;
+    width:auto;
+    padding:6% 0%;
+}
+.sc2-content span
+{   
+    line-height:25px;
+}
+
 .sc2-img
 {
     height:200px;
@@ -218,22 +258,21 @@ h1
 
 footer
 {
-    height:522px;
     background-color:#38373B;
 }
 
 .footer-top
 {
-    height:225px;
     margin:0% 20%;
     overflow: hidden;
+
 }
 .inf-block
 {
-    height:225px;
+
     float:left;
     width:33%;
-    padding:75px 0px 0px 0px;
+    padding:75px 0px;
     overflow: hidden;
 }
 hr
@@ -273,12 +312,15 @@ a:hover
 {
     height:280px;
     /*outline: 1px solid red;*/
-    text-align:center;
+    text-align:center;    
+    border: 1px solid #4F4E53;
+    text-decoration:none;
 
 }
 .bf-header
 {
-    padding: 50px 0px 0px 0px;
+    padding: 55px 0px 20px 0px;
+    margin:0px;
     color:#E6E6E6;
     font-size:22px;
 }
@@ -286,6 +328,14 @@ a:hover
 .simple-link
 {
     color:#969698;
+}
+.ft-website-name
+{
+    margin:40px 0 10px 0;
+}
+.ft-inputs
+{
+   /* width:25%;*/
 }
 .footer-bottom  input[type="email"]
 {
