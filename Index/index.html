@@ -5,8 +5,7 @@
     <meta charset="utf-8" />
     <title>myTestSite</title>
     <link href="css/source-sans-pro.css" type="text/css" rel="stylesheet" />
-    <link href="css/StyleSheet1.css" type="text/css" rel="stylesheet" />
-    <link rel="stylesheet" href="" />
+    <link href="css/StyleSheet.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
     <header>
@@ -43,9 +42,9 @@
                 <div class="heart-image sc1-image"></div>
                 <div>
                     <span class="section-header">Chronicles 16:11 </span>
-                    <p>Seek the LORD and his strength; seek his presence continually!<p/>
+                    <p>Seek the LORD and his strength; seek his presence continually!<p />
                 </div>
-                <div class ="arrow-image"><!-- ule a or img--></div>
+                <div class="arrow-image"><!-- ule a or img--></div>
             </div>
             <div class="ts-text">
                 <div class="pencil-image sc1-image"></div>
@@ -67,48 +66,39 @@
     </section>
 
     <section class="bottom-section">
-        <div class="section2-leftDiv">
-            <div class="sc2-content">
-                <div class="sc2-textleft">
-                    <p><span>Cestib umauct</span></p>
-                    <span>Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, comm lorem ipin <a href="#" class="section-link">read more ...</a></span>
-                </div>
+        <div class="section2-leftblock section2-genblocks">
+            <div class="sc2-content sc2-leftcontent sc2-topcontent">
                 <!--Add Image(float: right), or add 2 'div' & make 'inline'-->
-                <div class="sc2-topleftImg sc2-img">
-                    
-                </div>
-            </div>
-            <div class="sc2-content">
+                <div class="sc2-topleftImg sc2-img"></div>
                 <div class="sc2-text sc2-textleft">
                     <p><span>Cestib umauct</span></p>
                     <span>Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, comm lorem ipin <a href="#" class="section-link">read more ...</a></span>
                 </div>
+            </div>
+            <div class="sc2-content sc2-leftcontent sc2-botcontent">
                 <!--Add Image(float: right), or add 2 'div' & make 'inline'-->
-                <div class="sc2-botleftImg sc2-img">
-
+                <div class="sc2-botleftImg sc2-img"></div>
+                <div class="sc2-text sc2-textleft">
+                    <p><span>Cestib umauct</span></p>
+                    <span>Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, comm lorem ipin <a href="#" class="section-link">read more ...</a></span>
                 </div>
-
             </div>
         </div>
-        <div class="section2-rightDiv">
-            <div class="sc2-content">
-                <div class="sc2-textright">
-                    <p><span>Nunc dignissim</span></p>
-                    <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.Donec odio. Quisque volutpat matti <a href="#" class="section-link">read more ...</a></span>
-                </div>
+        <div class="section2-rightblock section2-genblocks">
+            <div class="sc2-content sc2-rightcontent sc2-topcontent">
                 <!--Add Image(float: left), or add 2 'div' & make 'inline'-->
-                <div class="sc2-toprightImg sc2-img">
-
-                </div>
-            </div>
-            <div class="sc2-content">
+                <div class="sc2-toprightImg sc2-img"></div>
                 <div class="sc2-text sc2-textright">
                     <p><span>Nunc dignissim</span></p>
                     <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.Donec odio. Quisque volutpat matti <a href="#" class="section-link">read more ...</a></span>
                 </div>
+            </div>
+            <div class="sc2-content sc2-rightcontent sc2-botcontent">
                 <!--Add Image(float: left), or add 2 'div' & make 'inline'-->
-                <div class="sc2-botrightImg sc2-img">
-
+                <div class="sc2-botrightImg sc2-img"></div>
+                <div class="sc2-text sc2-textright">
+                    <p><span>Nunc dignissim</span></p>
+                    <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.Donec odio. Quisque volutpat matti <a href="#" class="section-link">read more ...</a></span>
                 </div>
             </div>
         </div>
@@ -118,18 +108,16 @@
         <div class="footer-top">
             <div class="inf-block">
                 <!-- add img ant use float-->
-                <div class="tf-img tf-arr" ></div>
+                <div class="tf-img tf-arr"></div>
                 <div class="tf-text">
-                    <p>faceboom.com/sitename</p>
-                    <p>@sitename</p>
+                    <p>faceboom.com/sitename @sitename </p>
                 </div>
             </div>
             <div class="inf-block">
                 <!-- add img ant use float-->
                 <div class="tf-img tf-micro"></div>
                 <div class="tf-text">
-                    <p>“ Donec consectetuer vulputate se </p>
-                    <p>m tristiq donec odio com ”</p>
+                    <p>“ Donec consectetuer vulputate se m tristiq donec odio com "</p>
                 </div>
             </div>
             <div class="inf-block">
@@ -145,8 +133,10 @@
         <div class="footer-bottom">
             <p class="bf-header"><span>Vivamus vesinqu</span></p>
             <div class="ft-inputs"> <input placeholder="your email id here..." class="bf-input" type="email" name="email" /><input class="bf-button" type="button" name="button1" value="Subscribe" /></div>
-            <p class="ft-website-name">Copyright(c) website name.</p>
-            <p><a href="#" class="section-link">Designed by: www.alltemplateneeds.com </a> /  <a class="simple-link" href="#">Images from: www.wallpaperswide.com</a></p>
+            <div class="bf-bottomtext">
+                <p class="ft-website-name">Copyright(c) website name.</p>
+                <p class="fb-links"><a href="#" class="section-link">Designed by: www.alltemplateneeds.com </a> /  <a class="simple-link" href="#">Images from: www.wallpaperswide.com</a></p>
+            </div>
         </div>
     </footer>
 
