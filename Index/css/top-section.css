@@ -1,0 +1,40 @@
+﻿.top-section-citation
+{
+    padding:0;
+    overflow: hidden;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    color:#FDF4F2;
+    background-color:#38373B;
+}
+.top-section
+{
+    background-color:#38373B;
+}
+h1
+{
+   text-transform:uppercase; 
+   margin:0;
+   padding-top:40px;
+   font-weight:lighter;
+   font-size:26px;
+   word-spacing: 8.5px;
+   letter-spacing:3px;
+}
+h2
+{
+   font-size:18px;
+   margin:0;
+   padding-bottom:40px;
+   font-weight:lighter;
+   letter-spacing:2px;
+}
+.top-section-image
+{
+    height:399px;
+    background-color:#141414;
+    /*background-image:url("../images/character-img.jpg");*/
+    BACKGROUND-POSITION-X: CENTER;
+    background-repeat:no-repeat; 
+    text-align:center;
+}

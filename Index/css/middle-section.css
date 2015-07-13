@@ -1,0 +1,76 @@
+﻿.middle-section
+{
+    background-color:#F4F4F4;
+}
+.middle-section p
+{
+    line-height:25px;
+}
+
+.middle-section-border 
+{
+    height:auto;
+    overflow:hidden;
+}
+.middle-section-text
+{
+	text-align:center;
+    width:33.33%;
+    float:left;
+    padding:65px 0 70px 0;
+}
+.section-textblock
+{
+    padding:0;
+    margin:0;
+}
+
+.middle-section-images
+{
+	height:80px;
+    width:95px;
+	background-repeat:no-repeat;
+	margin:auto;
+    padding-bottom:16px;
+    background-position:center;
+    border:3px solid #A6A4AD;
+    border-radius:150px;
+    transition-property:all;
+    transition-duration:0.5s;
+    transition-timing-function:ease;
+}
+.middle-section-images:hover 
+{
+    box-shadow: 0 0 15px red;
+}
+.middle-section-left-image
+{
+	background-image:url("../images/heart-img.png");		
+}
+.middle-section-middle-image
+{
+	background-image:url("../images/pencil-img.png");
+}
+.middle-section-right-image
+{
+	background-image:url("../images/flag-img.png");
+}
+.section-header
+{
+    font: 23px sans-serif;
+    color:#605F64;
+    width:auto;
+    padding:50px 0 6% 0;
+    display:block;
+    letter-spacing:2px;
+}
+.arrow-image
+{
+    background-image:url("../images/arrow-img.png");
+    background-repeat:no-repeat;
+    height:30px;
+    width:25px;
+    margin:auto;
+    margin-top:6%;
+    cursor:pointer;
+}

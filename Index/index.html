@@ -6,11 +6,17 @@
     <title>myTestSite</title>
     <link href="css/reset.css" type="text/css" rel="stylesheet" />
     <link href="css/source-sans-pro.css" type="text/css" rel="stylesheet" />
-    <link href="css/StyleSheet.css" type="text/css" rel="stylesheet" />
+    <link href="css/basic.css" type="text/css" rel="stylesheet" />
+    <link href="css/header.css" type="text/css" rel="stylesheet" />
+    <link href="css/top-section.css" type="text/css" rel="stylesheet" />
+    <link href="css/middle-section.css" type="text/css" rel="stylesheet" />
+    <link href="css/bottom-section.css" type="text/css" rel="stylesheet" />
+    <link href="css/footer.css" type="text/css" rel="stylesheet" />
+    <!--<link href="css/StyleSheet.css" type="text/css" rel="stylesheet" />-->
 </head>
 <body>
     <header>
-        <div class="header-hat">
+        <div class="header-hat general-location">
             <div class="title">My-test-site</div>
             <ul>
                 <!-- use unordered list as inline el-->
@@ -21,8 +27,10 @@
                 <li class="header-list"><a href="#">Contact</a></li>
             </ul>
         </div>
+    </header>
+    <section class="top-section">
         <div>
-            <div class="header-citation">
+            <div class="top-section-citation general-location">
                 <h1>
                     I am the Way, the Truth, and the Life.
                 </h1>
@@ -30,34 +38,35 @@
                     No one comes to the Father except through me.
                 </h2>
             </div>
-            <div class="header-image">
-
+            <div class="top-section-image">
+                <img src="images/character-img.jpg" alt="Turn on images in your browser" /><!--alt="Turn on images in your browser"-->
             </div>
         </div>
-    </header>
 
-    <section class="top-section">
+
+    </section>
+    <section class="middle-section">
         <!-- make float or use column in css-->
-        <div class="sc1-border">
-            <div class="ts-text">
-                <div class="heart-image sc1-image"></div>
-                <div class="ts-textblock">
+        <div class="middle-section-border general-location">
+            <div class="middle-section-text">
+                <div class="middle-section-left-image middle-section-images"></div>
+                <div class="section-textblock">
                     <span class="section-header">Chronicles 16:11 </span>
                     <p>Seek the LORD and his strength; seek his presence continually!</p>
                 </div>
                 <div class="arrow-image"><!-- ule a or img--></div>
             </div>
-            <div class="ts-text">
-                <div class="pencil-image sc1-image"></div>
-                <div class="ts-textblock">
+            <div class="middle-section-text">
+                <div class="middle-section-middle-image middle-section-images"></div>
+                <div class="section-textblock">
                     <span class="section-header">Romans 12:12 </span>
                     <p>Rejoice in hope, be patient in tribulation, be constant in pray</p>
                 </div>
                 <div class="arrow-image"> </div>
             </div>
-            <div class="ts-text">
-                <div class="flag-image  sc1-image"></div>
-                <div class="ts-textblock">
+            <div class="middle-section-text">
+                <div class="middle-section-right-image  middle-section-images"></div>
+                <div class="section-textblock">
                     <span class="section-header">Philippians 4:13 </span>
                     <p>I can do all things through him who strengthens me. </p>
                 </div>
@@ -67,76 +76,78 @@
     </section>
 
     <section class="bottom-section">
-        <div class="section2-leftblock section2-genblocks">
-            <div class="sc2-content sc2-leftcontent sc2-topcontent">
-                <!--Add Image(float: right), or add 2 'div' & make 'inline'-->
-                <div class="sc2-topleftImg sc2-img"></div>
-                <div class="sc2-text sc2-textleft">
-                    <p><span>Cestib umauct</span></p>
-                    <span>Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, comm lorem ipin <a href="#" class="section-link">read more ...</a></span>
+        <div class="bottom-section-container general-location">
+            <div class="section2-left-block section2-general-blocks">
+                <div class="section2-content section2-left-content section2-top-content">
+                    <!--Add Image(float: right), or add 2 'div' & make 'inline'-->
+                    <div class="section2-top-left-image section2-images"></div>
+                    <div class="section2-text section2-text-left">
+                        <p><span>Cestib umauct</span></p>
+                        <span>Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, comm lorem ipin <a href="#" class="section-link">read more ...</a></span>
+                    </div>
+                </div>
+                <div class="section2-content section2-left-content section2-bottom-content">
+                    <!--Add Image(float: right), or add 2 'div' & make 'inline'-->
+                    <div class="section2-bottom-left-image section2-images"></div>
+                    <div class="section2-text section2-text-left">
+                        <p><span>Cestib umauct</span></p>
+                        <span>Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, comm lorem ipin <a href="#" class="section-link">read more ...</a></span>
+                    </div>
                 </div>
             </div>
-            <div class="sc2-content sc2-leftcontent sc2-botcontent">
-                <!--Add Image(float: right), or add 2 'div' & make 'inline'-->
-                <div class="sc2-botleftImg sc2-img"></div>
-                <div class="sc2-text sc2-textleft">
-                    <p><span>Cestib umauct</span></p>
-                    <span>Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, comm lorem ipin <a href="#" class="section-link">read more ...</a></span>
+            <div class="section2-right-block section2-general-blocks">
+                <div class="section2-content section2-right-content section2-top-content">
+                    <!--Add Image(float: left), or add 2 'div' & make 'inline'-->
+                    <div class="section2-top-right-image section2-images"></div>
+                    <div class="section2-text section2-text-right">
+                        <p><span>Nunc dignissim</span></p>
+                        <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.Donec odio. Quisque volutpat matti <a href="#" class="section-link">read more ...</a></span>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="section2-rightblock section2-genblocks">
-            <div class="sc2-content sc2-rightcontent sc2-topcontent">
-                <!--Add Image(float: left), or add 2 'div' & make 'inline'-->
-                <div class="sc2-toprightImg sc2-img"></div>
-                <div class="sc2-text sc2-textright">
-                    <p><span>Nunc dignissim</span></p>
-                    <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.Donec odio. Quisque volutpat matti <a href="#" class="section-link">read more ...</a></span>
-                </div>
-            </div>
-            <div class="sc2-content sc2-rightcontent sc2-botcontent">
-                <!--Add Image(float: left), or add 2 'div' & make 'inline'-->
-                <div class="sc2-botrightImg sc2-img"></div>
-                <div class="sc2-text sc2-textright">
-                    <p><span>Nunc dignissim</span></p>
-                    <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.Donec odio. Quisque volutpat matti <a href="#" class="section-link">read more ...</a></span>
+                <div class="section2-content section2-right-content section2-bottom-content">
+                    <!--Add Image(float: left), or add 2 'div' & make 'inline'-->
+                    <div class="section2-bottom-right-image section2-images"></div>
+                    <div class="section2-text section2-text-right">
+                        <p><span>Nunc dignissim</span></p>
+                        <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.Donec odio. Quisque volutpat matti <a href="#" class="section-link">read more ...</a></span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <footer>
-        <div class="footer-top">
-            <div class="inf-block">
+        <div class="footer-top general-location">
+            <div class="information-block">
                 <!-- add img ant use float-->
-                <div class="tf-img tf-arr"></div>
-                <div class="tf-text">
+                <div class="footer-top-images footer-left-image"></div>
+                <div class="footer-top-text">
                     <p>faceboom.com/sitename @sitename </p>
                 </div>
             </div>
-            <div class="inf-block">
+            <div class="information-block">
                 <!-- add img ant use float-->
-                <div class="tf-img tf-micro"></div>
-                <div class="tf-text">
+                <div class="footer-top-images footer-middle-image"></div>
+                <div class="footer-top-text">
                     <p>“ Donec consectetuer vulputate se m tristiq donec odio com "</p>
                 </div>
             </div>
-            <div class="inf-block">
+            <div class="information-block">
                 <!-- add img ant use float-->
-                <div class="tf-img tf-pers"></div>
-                <div class="tf-text">
+                <div class="footer-top-images footer-right-image"></div>
+                <div class="footer-top-text">
                     <p>Email : info@sitename.com</p>
                     <p>Call Us : (000) 777 777 7777</p>
                 </div>
             </div>
 
         </div>
-        <div class="footer-bottom">
-            <p class="bf-header"><span>Vivamus vesinqu</span></p>
-            <div class="ft-inputs"> <input placeholder="your email id here..." class="bf-input" type="email" name="email" /><input class="bf-button" type="button" name="button1" value="Subscribe" /></div>
-            <div class="bf-bottomtext">
-                <p class="ft-website-name">Copyright(c) website name.</p>
-                <p class="fb-links"><span class="ft-collink"><a href="#" class="section-link ">Designed by: www.alltemplateneeds.com </a></span> /  <a class="simple-link" href="#">Images from: www.wallpaperswide.com</a></p>
+        <div class="footer-bottom general-location">
+            <p class="footer-bottom-header"><span>Vivamus vesinqu</span></p>
+            <div class="footer-bottom-inputs"> <input placeholder="your email id here..." class="footer-bottom-input" type="email" name="email" /><input class="footer-bottom-button" type="button" name="button1" value="Subscribe" /></div>
+            <div class="footer-bottom-text">
+                <p class="footer-bottom-website-name">Copyright(c) website name.</p>
+                <p class="footer-bottom-links"><span class="footer-left-link"><a href="#" class="section-link ">Designed by: www.alltemplateneeds.com </a></span> /  <a class="simple-link" href="#">Images from: www.wallpaperswide.com</a></p>
             </div>
         </div>
     </footer>
